@@ -25,7 +25,5 @@ int main(int argc, char** argv) {
 }
 
 double tilingCost(int width, int height, double cost) {
-	double totalCost = 0;
-	totalCost = (width * height) * cost;
-	return totalCost;
+	return (width * height) * cost;
 }
